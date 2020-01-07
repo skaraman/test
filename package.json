@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "testing a project with an ESLint Config within a Node module",
+  "scripts": {
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "eslintIgnore": [
+    "build/*"
+  ],
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-synacor": "^2.0.0",
+    "eslint-plugin-sonarjs": "^0.4.0"
+  },
+  "dependencies": {}
+}
